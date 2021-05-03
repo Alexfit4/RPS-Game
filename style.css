@@ -1,0 +1,16 @@
+#results{
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+.container {
+            margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}

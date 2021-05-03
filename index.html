@@ -3,10 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
+    <div class="card w-50">
+      <div class="card-body">
+        <h5 class="card-title">Results</h5>
+        <p id="results"></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary" id="rock">Rock</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-success" id="paper">
+            Paper
+          </button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-danger" id="scissors">
+            Scissors
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="./script.js"></script>
   </body>
 </html>
